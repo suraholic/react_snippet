@@ -19,7 +19,7 @@
 			"\trender() {",
 			"\t\treturn(",
 			"\t\t\t<div>${1:MyComponent}</div>",
-			"\t\t);",
+			"\t\t)",
 			"\t}",
 			"}",
 			"",
