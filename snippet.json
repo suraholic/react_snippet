@@ -1,4 +1,4 @@
- "reactMyApp" : {
+"reactMyApp" : {
 		"prefix": "rc",
 		"body": [
 			"import React, { Component } from 'react';",      
@@ -6,7 +6,8 @@
 			"",
 			"const propTypes = {",
 			"",
-			"};",
+      "};",
+      "",
 			"const defaultProps = {",
 			"",
       "};",
@@ -28,4 +29,4 @@
 			"export default ${1:MyComponent};"
 		],
 		"description": "React Snippets"
-	},
+	}
