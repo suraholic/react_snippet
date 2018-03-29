@@ -1,4 +1,4 @@
-"reactMyApp" : {
+ "reactMyApp" : {
 		"prefix": "rc",
 		"body": [
 			"import React, { Component } from 'react';",      
@@ -9,7 +9,8 @@
 			"};",
 			"const defaultProps = {",
 			"",
-			"};",
+      "};",
+      "",
 			"class ${1:MyComponent} extends Component {",
 			"\tconstructor(props) {",
 			"\t\tsuper(props);",
@@ -19,7 +20,7 @@
 			"\t\t\t<div>${1:MyComponent}</div>",
 			"\t\t);",
 			"\t}",
-			"}",
+			"};",
 			"",
 			"${1:MyComponent}.propTypes = propTypes;",
 			"${1:MyComponent}.defaultProps = defaultProps;",
