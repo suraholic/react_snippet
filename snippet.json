@@ -1,4 +1,4 @@
-"reactMyApp" : {
+ "reactMyApp" : {
 		"prefix": "rc",
 		"body": [
 			"import React, { Component } from 'react'",      
@@ -14,7 +14,7 @@
       "",
 			"class ${1:MyComponent} extends Component {",
 			"\tconstructor(props) {",
-			"\t\tsuper(props);",
+			"\t\tsuper(props)",
 			"\t}",
 			"\trender() {",
 			"\t\treturn(",
